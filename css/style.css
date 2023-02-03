@@ -8,8 +8,8 @@ svg {
   justify-content: end;
 }
 
-.navbar-expand-lg .navbar-collapse:hover {
-  color: aliceblue;
+.carousel {
+  margin-top: 0px;
 }
 
 /*CARDS*/
