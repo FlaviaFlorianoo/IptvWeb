@@ -1,0 +1,36 @@
+img, svg
+{ /*Classe sem ponto*/
+    border-radius: 30px;
+}
+
+
+.navbar-expand-lg .navbar-collapse
+{
+	justify-content:end;
+	
+}
+
+.bg-white
+{
+     background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,25,58,1) 51%, rgba(46,50,52,1) 100%, rgba(0,212,255,1) 100%); 
+}
+
+/*CARDS*/
+.card-group
+{
+	padding:30px;
+}
+
+.card-img-top
+{
+	border-radius:20px;
+	padding:7px;
+}
+
+.footer
+{
+	text-align:center;
+	background-image:url("../Imagens/bg.jpg");/*../Folder/arquive*/
+	padding:40px 0;
+}
