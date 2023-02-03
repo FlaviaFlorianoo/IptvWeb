@@ -1,36 +1,48 @@
-img, svg
-{ /*Classe sem ponto*/
-    border-radius: 30px;
+img,
+svg {
+  /*Classe sem ponto*/
+  border-radius: 30px;
 }
 
-
-.navbar-expand-lg .navbar-collapse
-{
-	justify-content:end;
-	
+.navbar-expand-lg .navbar-collapse {
+  justify-content: end;
 }
 
-.bg-white
-{
-     background: rgb(2,0,36);
-     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,25,58,1) 51%, rgba(46,50,52,1) 100%, rgba(0,212,255,1) 100%); 
+.navbar-expand-lg .navbar-collapse:hover {
+  color: aliceblue;
 }
 
 /*CARDS*/
-.card-group
-{
-	padding:30px;
+.card-group {
+  padding: 30px;
 }
 
-.card-img-top
-{
-	border-radius:20px;
-	padding:7px;
+.card-img-top {
+  border-radius: 20px;
+  padding: 7px;
 }
 
-.footer
-{
-	text-align:center;
-	background-image:url("../Imagens/bg.jpg");/*../Folder/arquive*/
-	padding:40px 0;
+.footer {
+  text-align: center;
+  background-image: url("../Imagens/bg.jpg"); /*../Folder/arquive*/
+  padding: 40px 0;
+}
+
+.corpoPagina {
+  margin-top: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(230, 96, 13) 0%,
+    rgb(201, 10, 10) 51%,
+    rgb(214, 45, 116) 100%,
+    rgb(214, 211, 15) 100%
+  );
+}
+
+.botao {
+  margin: 5px;
+  font-size: large;
+  background-color: blue;
+  border-radius: 5px;
 }
